@@ -1,0 +1,41 @@
+.container__servicio{
+    display:flex;
+    margin: 20px 15px;
+
+}
+
+.servicio__section{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.servicio__section__title{
+    margin:20px 0px;
+    font-family: 'Krub', sans-serif;
+    color: #808080;
+    font-weight:400;
+}
+
+.servicio__section__icono{
+    background-color: #eacd39;
+    width:50px;
+    height: 50px;
+    border-radius:  50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px 0;
+    font-weight:900;
+    font-size: 25px;
+    
+}
+
+
+@media (min-width: 480px){
+    .container__servicio{
+        flex-direction: row;
+
+}
+}

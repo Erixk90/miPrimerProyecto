@@ -1,0 +1,22 @@
+.container__servicio{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    text-align:justify;
+    margin: 10px 10px;
+   
+}
+
+.section {
+    -webkit-box-shadow: 6px 7px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 5px -5px rgba(0,0,0,0.75);
+    margin: 0px 15px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+

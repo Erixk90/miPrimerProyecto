@@ -1,0 +1,77 @@
+.section__container{
+    text-align: center;
+    background-image: url(../imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.section__container__background{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.section__titulo{
+    font-size:1.8rem;
+    color: #fff;
+    margin:20px;
+}
+
+.section__ubicacion__pin {
+    color: #eacd39;
+    font-size: 5rem;
+}
+
+.section__ubicacion__lugar{
+    font-size:1rem;
+    color: #fff;
+    margin:20px;
+}
+
+.section__btn{
+    background-color:#583fb3;
+    width:200px;
+    height:30px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.section__btn__enlace{
+ text-align: center;
+ color: #fff;
+font-weight: 700;
+text-transform: Uppercase;
+}
+
+
+@media (min-width: 480px){
+    .section__ubicacion{
+        display:inline;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+}
+
+.section__ubicacion__lugar{
+    display: inline-block;
+}
+
+
+.section__container{
+    height: 45vh;
+}
+}
